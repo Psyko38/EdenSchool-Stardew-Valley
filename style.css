@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+	font-family: Inter;
+	font-size: 2vmin;
+	color: white;
+	transition: 1s;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: black;
+}
+
+.cards {
+	width: 80vmin;
+	height: 96vmin;
+	background: #2f2f2f;
+	border-radius: 3vmin;
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+}
+
+.rigt {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.left {
+	width: 100%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.sex {
+	display: flex;
+	justify-content: center;
+}
+
+.sex > img {
+	margin-top: 2vmin;
+	margin-right: 2vmin;
+	margin-left: 2vmin;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+}
+
+.centerb {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	width: 65vmin;
+	margin-bottom: 2vmin;
+	padding: 2vmin;
+	background: #3da92e;
+	border-radius: 1vmin;
+	border: 0px;
+	box-shadow: 1.5vmin 1.5vmin 0px 0px #00000040;
+}
+
+.trait {
+	margin-top: 5vmin;
+	margin-bottom: 5vmin;
+	border: 1vmin white solid;
+	border-radius: 10000000px;
+	margin-right: 2vmin;
+	margin-left: 2vmin;
+}
+
+input {
+	background: #3e5662;
+	border: 0px;
+	border-radius: 1vmin;
+	padding: 1vmin;
+	width: 37vmin;
+}
+
+.img1 {
+	width: 100%;
+	margin-bottom: 2vmin;
+}
+
+.img2 {
+	width: 30vmin;
+}
+
+.vec {
+	height: 2.5vmin;
+}
+
+label {
+	font-weight: bolder;
+}
